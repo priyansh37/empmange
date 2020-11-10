@@ -1,0 +1,54 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "KFC restaurant",
+      "address": "noida sector 50",
+      "email": "kfc@test.com"
+    },
+    {
+      "id": 2,
+      "name": "om restaurant",
+      "address": "noida sector 10",
+      "email": "om@test.com"
+    },
+    {
+      "name": "mcD restaurant",
+      "address": "noida sector 30",
+      "email": "mcD@test.com",
+      "id": 3
+    },
+    {
+      "name": "Lapinozz",
+      "email": "Lapinozz@pizza.com",
+      "address": "section 120",
+      "id": 4
+    },
+    {
+      "name": "BurgerKing",
+      "email": "Burger@king.com",
+      "address": "sector 130",
+      "id": 5
+    },
+    {
+      "name": "Dominoz",
+      "email": "Dominoz@domi.com",
+      "address": "sector 150",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "Priyansh M Aadeshra",
+      "email": "Xyz@abc.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Jigar Parmar",
+      "email": "abc@xyz.com",
+      "password": "12345",
+      "id": 2
+    }
+  ]
+}

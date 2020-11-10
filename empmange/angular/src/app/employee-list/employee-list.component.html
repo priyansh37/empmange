@@ -1,0 +1,31 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">dob</th>
+            <th scope="col">role</th>
+            <th scope="col">salary</th>
+            <th scope="col">experience</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor ="let item of collection">
+            <th>{{item._id}}</th>
+            <th>{{item.name}}</th>
+            <th>{{item.address}}</th>
+            <th>{{item.dob}}</th>
+            <th>{{item.role}}</th>
+            <th>{{item.salary}}</th>
+            <th>{{item.experience}}</th>
+            <th>
+                <input (click)="deleteResto(item._id)" type="button" class="btn btn-primary btn-sm" value="Delete" >
+                <a routerLink="/details/{{item._id}}">
+                    <input class="btn btn-primary btn-sm" value="Details"  type="button" >
+                </a>
+            </th>
+        </tr>
+    </tbody>
+</table>
